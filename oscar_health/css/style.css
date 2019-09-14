@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Playfair+Display&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #003bde;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+header {
+  padding: 10px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav a {
+  color: #051033;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: white;
+  color: #003bde;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: .3px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 3px;
+}
+
+footer a {
+  color: rgba(122,131,142,0.6);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.columns {
+  padding: 100px 60px;
+  display: inline-block;
+  width: 49.5%;
+  vertical-align: top;
+  height: 325px;
+}
+
+#left-col {
+  background-image: url(../images/background.jpeg);
+  background-size: cover;
+}
+
+#right-col {
+  background-image: url(../images/background.jpeg);
+  background-size: cover;
+}
+
+#about {
+  text-align: center;
+  padding: 90px 60px;
+}
+
+#about p {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+}
+
+#about h3 {
+  color: #051033;
+  font-weight: 600;
+  letter-spacing: .5px;
+  margin: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .columns {
+    padding: 100px 60px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    height: 325px;
+  }
+
+  header {
+    display: block;
+  }
+}
